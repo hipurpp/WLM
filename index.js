@@ -25,7 +25,7 @@ client.on("guildMemberAdd", (member) => {
 
     if(!salon_sondages) return;
 
-    let bienvenue = (`Bienvenue ${member.user} sur **@Madd** 🖐️ ! N'oublie pas de regarder <#456423824842424322>`);
+    let bienvenue = (`Bienvenue ${member.user} sur **@Madd** 🖐️ ! N'oublie pas de regarder <#431129192810151937>`);
     salon_sondages.send(bienvenue);
 
     console.log(`@${member.user.username} avec pour ID ${member.user.id} s'est inscrit sur le serveur. Date: ` + moment().format('YYYY-MM-DD'));
