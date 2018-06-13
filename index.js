@@ -44,8 +44,4 @@ client.on("guildMemberRemove", (member) => {
     console.log(`@${member.user.username} avec pour ID ${member.user.id} a quitté le serveur. Date: ` + moment().format('YYYY-MM-DD'));
 });
 
-
-client.on("message", async message => {
-});
-
 client.login(process.env.TOKEN);
