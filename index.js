@@ -40,4 +40,4 @@ client.on("guildMemberRemove", (member) => {
 client.on("message", async message => {
 });
 
-client.login("NDU2NDIzMzc0MzcwMTExNDg5.DgKXQA.9n6XJDFLQECKAKyQEw9wWA0bUpI");
+client.login(process.env.TOKEN);
